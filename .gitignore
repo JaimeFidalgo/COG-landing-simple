@@ -1,0 +1,12 @@
+.DS_Store
+.sass-cache
+.publish
+.idea
+/deploy
+/src
+/node_modules
+/dist
+
+npm-debug.log
+
+

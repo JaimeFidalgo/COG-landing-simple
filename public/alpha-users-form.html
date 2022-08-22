@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chains Of Glory - Landing Page">
+    <meta name="author" content="COG">
+    <title>Chains Of Glory</title>
+    <link rel="icon" type="image/png" href="assets/images/COG/big_barbarian.png">
+    <!-- START: Styles -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700%7cMarcellus+SC"
+        rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <script defer src="assets/vendor/fontawesome-free/js/all.js"></script>
+    <script defer src="assets/vendor/fontawesome-free/js/v4-shims.js"></script>
+    <!-- IonIcons -->
+    <link rel="stylesheet" href="assets/vendor/ionicons/css/ionicons.min.css">
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="assets/vendor/revolution/css/settings.css">
+    <link rel="stylesheet" href="assets/vendor/revolution/css/layers.css">
+    <link rel="stylesheet" href="assets/vendor/revolution/css/navigation.css">
+    <!-- Flickity -->
+    <link rel="stylesheet" href="assets/vendor/flickity/dist/flickity.min.css">
+    <!-- Photoswipe -->
+    <link rel="stylesheet" href="assets/vendor/photoswipe/dist/photoswipe.css">
+    <link rel="stylesheet" href="assets/vendor/photoswipe/dist/default-skin/default-skin.css">
+    <!-- DateTimePicker -->
+    <link rel="stylesheet" href="assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+    <!-- Summernote -->
+    <link rel="stylesheet" href="assets/vendor/summernote/dist/summernote-bs4.css">
+    <!-- GODLIKE -->
+    <link rel="stylesheet" href="assets/css/godlike.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- END: Styles -->
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+    <div class="nk-preloader">
+        <!--
+         Preloader animation
+         data-close-... data used for closing preloader
+         data-open-...  data used for opening preloader
+    -->
+        <div class="nk-preloader-bg" style="background-color: rgb(1, 18, 33);" data-close-frames="23"
+            data-close-speed="1.2" data-close-sprites="./assets/images/preloader-bg.png" data-open-frames="23"
+            data-open-speed="1.2" data-open-sprites="./assets/images/preloader-bg-bw.png">
+        </div>
+        <div class="nk-preloader-content">
+            <div>
+                <!-- <img class="nk-img" src="assets/images/logo.svg" alt="Godlike - Gaming Bootstrap 4 Template" width="170"> -->
+                <h1>Chains Of Glory</h1>
+                <div class="nk-preloader-animation"></div>
+            </div>
+        </div>
+        <div class="nk-preloader-skip">Skip</div>
+    </div>
+
+    <!-- Page video Background -->
+
+    <div class="nk-page-background op-5" data-video="https://youtu.be/UkeDo1LhUqQ" data-video-loop="true"
+        data-video-mute="true" data-video-volume="0" data-video-start-time="0" data-video-end-time="0"
+        data-video-pause-on-page-leave="true" style="background-image: url('assets/images/page-background.jpg');"></div>
+
+
+    <!-- Page Border -->
+
+    <div class="nk-page-border">
+        <div class="nk-page-border-t"></div>
+        <div class="nk-page-border-r"></div>
+        <div class="nk-page-border-b"></div>
+        <div class="nk-page-border-l"></div>
+    </div>
+
+    <!-- <header class="nk-header nk-header-opaque">
+
+        <nav id="navigation" class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-transparent nk-navbar-autohide">
+            <div class="container">
+                <div class="nk-nav-table">
+                    <a href="index.html" class="nk-nav-logo">
+                        <img src="assets/images/COG/titletext.png" alt="" width="230">
+                    </a>
+                    <ul class="nk-nav nk-nav-right d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
+                        <li class="active nk-drop-item">
+                            <a href="index.html"> HOME</a>
+                            <ul class="dropdown">
+                                <li class="">
+                                    <a href="#img-portada"> Landing</a>
+
+                                </li>
+                                <li class="">
+                                    <a href="#main-features"> Main Features</a>
+
+                                </li>
+                                <li class="">
+                                    <a href="#watch-trailer">Trailer</a>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+                        <li class="  nk-drop-item">
+                            <a href="game.html"> GAME</a>
+                            <ul class="dropdown">
+                                <li class="">
+                                    <a href="game.html #overviewid"> Overview</a>
+
+                                </li>
+                                <li class="">
+                                    <a href="game.html #fully-metaverse"> Fully in the Metaverse</a>
+
+                                </li>
+                                <li class="">
+                                    <a href="game.html #last-dev-post"> Last Developer Posts</a>
+
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class=" ">
+                            <a href="roadmap.html"> Roadmap</a>
+
+                        </li>
+                        <li class=" ">
+                            <a href="faqs.html"> FAQs</a>
+
+                        </li>
+                        <li class=" ">
+                            <a href="team.html"> Team</a>
+
+
+                        </li>
+                        <li class="  nk-drop-item">
+                            <a href="#"> Documentation</a>
+                            <ul class="dropdown">
+                                <li class="  ">
+                                    <a href="#"> Investor Deck</a>
+                                </li>
+                                <li class="  ">
+                                    <a href="#"> WhitePaper</a>
+                                </li>
+                                <li class="  ">
+                                    <a href="#"> Player's Manual</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="  nk-drop-item">
+                            <a href="#"> Media</a>
+                            <ul class="dropdown">
+                                <li class="  ">
+                                    <a href="#"> Discord</a>
+                                </li>
+                                <li class="  ">
+                                    <a href="#"> Twitter</a>
+                                </li>
+                                <li class="  ">
+                                    <a href="#">Youtube</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header> -->
+    
+    <div class="nk-page-background-audio d-none" data-audio="assets/mp3/purpleplanetmusic-molten-alloy.mp3"
+        data-audio-volume="100" data-audio-autoplay="true" data-audio-loop="true" data-audio-pause-on-page-leave="true">
+    </div>
+
+
+    <!-- START fixed side buttons -->
+    <div class="nk-side-buttons nk-side-buttons-visible">
+        <ul>
+
+            <li>
+                <span class="nk-btn nk-btn-lg nk-btn-icon nk-bg-audio-toggle">
+                    <span class="icon">
+                        <span class="ion-android-volume-up nk-bg-audio-pause-icon"></span>
+                        <span class="ion-android-volume-off nk-bg-audio-play-icon"></span>
+                    </span>
+                </span>
+            </li>
+            <li class="nk-scroll-top">
+                <span class="nk-btn nk-btn-lg nk-btn-icon">
+                    <span class="icon ion-ios-arrow-up"></span>
+                </span>
+            </li>
+        </ul>
+    </div>
+    <div class="nk-gap-2"></div>
+    <!-- END: fixed Side Buttons -->
+    <div class="main-features">
+        <h1>Alpha Registry</h1>
+    </div>
+
+
+    <div class="nk-gap-1"></div>
+    <div>
+        <div class="container beta-users-form">
+            <div>
+                <h4>Welcome to the Alpha Registration!</h4>
+            </div>
+            <div>
+                <p style="text-align: justify;">We're eager to have you here. The Alpha Version of the Chains of Glory
+                    platform
+                    is an important step for this poject to stand out. <br>
+                    During this period, you, as part of this starting and vibrant community will have access to the main
+                    functionalities of the game. <br>
+                    the objective here is to get as much feedback as possible from the community so the Dev Team can
+                    implement
+                    the best ideas. </p>
+            </div>
+            <div class="form-beta-users">
+                <div>
+                    <h5>What do we offer you</h5>
+                    <div class="nk-gap-1"></div>
+                    <p style="text-align: justify;">For your help, once the game is in production, we offer you the
+                        following:
+
+                    </p>
+                    <ul>
+                        <li>In-game NFTs! </li>
+                        <li>COG Token!</li>
+                        <li>Access to special quests with unique rewards!</li>
+                    </ul>
+
+
+
+                    <div class="nk-gap-1"></div>
+                    <h5>What do we ask you for?</h5>
+                    <div class="nk-gap-1"></div>
+
+                    <ul>
+                        <li>Fill out the form!</li>
+                        <li>Join our social media!</li>
+                        <li>Give us your feedback to improve!</li>
+                        <li>Bring your friends to the game!</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Fill out the form to register for Alpha version!</h5>
+
+
+
+                    <!-- START: Form 1 -->
+                    <form  class="nk-form nk-form-ajax">
+                        <div class="nk-gap-1"></div>
+                        <input type="text" class="form-control required" name="" id="beta-users-name" placeholder="User Name *">
+                        <div class="nk-gap"></div>
+                        <input type="email" class="form-control required" name="" id="beta-users-email" placeholder="Email *">
+                        <div class="nk-gap"></div>
+                        <input type="text" class="form-control required" name="" id="beta-users-address" placeholder="ETH-Address *">
+                        <div class="nk-gap" id="divAddress"></div>
+                        <!-- <select name="how did you find us" class="form-control" placeholder="How did you find us *">
+                            <option class="form-control required" hidden selected>How did you find us *</option>
+                            <option class="form-control required" value="1" >Twitter</option>
+                            <option class="form-control required" value="2" >Discord</option> 
+                            <option class="form-control required" value="3">Youtube</option>
+                            <option class="form-control required" value="3">Word of Mouth</option>
+                        </select> -->
+                        
+                        <div class="nk-gap"></div>
+                        <div id="success"></div>
+                        <!-- <div class="nk-form-response-success"></div>
+                        <div class="nk-form-response-error"></div> -->
+                        <button class="nk-btn nk-btn-lg link-effect-4" id="send-beta-users" onclick="sendBetaUsers()">Send</button>
+                    </form>
+                    <!-- END: Form 1 -->
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+<!--try-->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- START: Footer -->
+        <div class="nk-nav-row footer">
+
+            <div class="nk-nav-footer">
+                <p style="text-align: center;">&copy; Chains Of Glory </p>
+            </div>
+
+
+        </div>
+
+
+        <!--END: Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- SCRIPTS -->
+        <!-- BETA USERS CAPTURAR DATOS -->
+        <script src="assets/js/alpha-users.js"></script>
+        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+        <!-- GSAP -->
+        <script src="assets/vendor/gsap/dist/gsap.min.js"></script>
+        <script src="assets/vendor/gsap/dist/ScrollToPlugin.min.js"></script>
+        <!-- Popper -->
+        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Sticky Kit -->
+        <script src="assets/vendor/sticky-kit/dist/sticky-kit.min.js"></script>
+        <!-- Jarallax -->
+        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+        <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+        <!-- imagesLoaded -->
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <!-- Flickity -->
+        <script src="assets/vendor/flickity/dist/flickity.pkgd.min.js"></script>
+        <!-- Isotope -->
+        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+        <!-- Photoswipe -->
+        <script src="assets/vendor/photoswipe/dist/photoswipe.min.js"></script>
+        <script src="assets/vendor/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+        <!-- Typed.js -->
+        <script src="assets/vendor/typed.js/lib/typed.min.js"></script>
+        <!-- Jquery Validation -->
+        <script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+        <!-- Jquery Countdown + Moment -->
+        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <script src="assets/vendor/moment/min/moment.min.js"></script>
+        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+        <!-- Hammer.js -->
+        <script src="assets/vendor/hammerjs/hammer.min.js"></script>
+        <!-- NanoSroller -->
+        <script src="assets/vendor/nanoscroller/bin/javascripts/jquery.nanoscroller.js"></script>
+        <!-- SoundManager2 -->
+        <script src="assets/vendor/soundmanager2/script/soundmanager2-nodebug-jsmin.js"></script>
+        <!-- DateTimePicker -->
+        <script src="assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+        <!-- Revolution Slider -->
+        <script src="assets/vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="assets/vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="assets/vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="assets/vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="assets/vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <!-- Keymaster -->
+        <script src="assets/vendor/keymaster/keymaster.js"></script>
+        <!-- Summernote -->
+        <script src="assets/vendor/summernote/dist/summernote-bs4.min.js"></script>
+        <!-- GODLIKE -->
+        <script src="assets/js/godlike.min.js"></script>
+        <script src="assets/js/godlike-init.js"></script>
+        <!-- END: Scripts -->
+        <script type="text/javascript">
+            var tpj = jQuery;
+            var revapi50;
+            tpj(document).ready(function () {
+                if (tpj("#rev_slider_50_1").revolution == undefined) {
+                    revslider_showDoubleJqueryError("#rev_slider_50_1");
+                }
+                else {
+                    revapi50 = tpj("#rev_slider_50_1").show().revolution(
+                        {
+                            sliderType: "carousel",
+                            jsFileLocation: "assets/vendor/revolution/js/",
+                            sliderLayout: "auto",
+                            dottedOverlay: "none",
+                            delay: 9000,
+                            navigation:
+                            {
+                                keyboardNavigation: "off",
+                                keyboard_direction: "horizontal",
+                                onHoverStop: "off",
+                            },
+                            carousel:
+                            {
+                                maxRotation: 8,
+                                vary_rotation: "off",
+                                minScale: 20,
+                                vary_scale: "off",
+                                horizontal_align: "center",
+                                vertical_align: "center",
+                                fadeout: "off",
+                                vary_fade: "off",
+                                maxVisibleItems: 3,
+                                infinity: "on",
+                                space: -90,
+                                stretch: "off"
+                            },
+                            responsiveLevels: [1240, 1024, 778, 480],
+                            gridwidth: [800, 600, 400, 320],
+                            gridheight: [600, 400, 320, 280],
+                            lazyType: "none",
+                            shadow: 0,
+                            spinner: "off",
+                            stopLoop: "on",
+                            stopAfterLoops: 0,
+                            stopAtSlide: 0,
+                            shuffle: "off",
+                            autoHeight: "off",
+                            fullScreenAlignForce: "off",
+                            fullScreenOffsetContainer: "",
+                            fullScreenOffset: "",
+                            disableProgressBar: "on",
+                            hideThumbsOnMobile: "off",
+                            hideSliderAtLimit: 0,
+                            hideCaptionAtLimit: 0,
+                            hideAllCaptionAtLilmit: 0,
+                            debugMode: false,
+                            fallbacks:
+                            {
+                                simplifyAll: "off",
+                                nextSlideOnWindowFocus: "off",
+                                disableFocusListener: false,
+                            }
+                        });
+                }
+            });
+        </script>
+</body>

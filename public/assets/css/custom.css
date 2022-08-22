@@ -1,0 +1,279 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+
+#navigation {
+    /* background-color:rgb(1, 18, 33); */
+    opacity: 0.8;
+
+}
+.container-nav{
+    width:100%;
+}
+.nk-nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*
+.bg-image{
+    width: 100% !important;
+
+  overflow: hidden !important;
+  border: 1px solid white;
+} */
+/* .jarallax-img{
+    max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+} */
+.main-features{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.watch-trailer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nk-testimonial-2{
+    background-color: transparent;
+}
+
+.container-video{
+    width: 50%;
+    height: auto;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.end-pages {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.beta-users-form {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-beta-users{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;;
+}
+
+::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+  .post-container{
+      margin-left: 50px;
+      margin-right: 50px;
+      text-align: justify;
+  }
+
+  #COG-canvas{
+    max-width: 100% !important;
+  }
+
+
+  #discord-main-page{
+      font-size: 50px;
+      color: white;
+  }
+
+  #discord-main-btn{
+      width: 250px;
+      opacity: 0.8;
+  }
+
+  #main-discord-server{
+      background-color: rgba(0,0,0,0.2);
+      padding: 15px;
+  }
+
+  .game-images-carousel{
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 300px;
+  }
+  .game-image-carousel{
+      width: 30%;
+     object-fit: center;
+
+      /* border: 1px solid white; */
+  }
+
+  .game-text-carousel{
+      display: flex;
+      width: 50%;
+      text-align: justify;
+  }
+
+/* .nk-image-box-3.lore{
+    width: 250px;
+    height: 200px;
+} */
+
+#lore-game-image-box{
+
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit:contain;
+    /* border: 1px solid white; */
+
+
+}
+
+#click-responsive-lore{
+
+    display: none;
+}
+
+
+/* Responsive Navigation Bar */
+.menu-btn-bars{
+    cursor: pointer;
+    display: none;
+}
+
+
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* @media (max-width: 980px){
+    .nk-nav{
+        position: fixed;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        left:0;
+        top:0;
+    }
+    .nk-nav > li{
+        display: block !important;
+    }
+    .nk-nav > li > a{
+        display: inline-block !important;
+    }
+    } */
+
+    .container-center{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+
+
+
+    }
+
+    .container-center > p{
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+
+@media (max-width: 700px){
+.text-lore-map{
+    font-size: 10px;
+}
+#click-responsive-lore{
+
+    display: block;
+}
+}
+
+@media (max-width: 400px){
+    .text-lore-map{
+        font-size: 10px;
+    }
+
+    #lore-game-image-box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid white; */
+
+
+    }
+    }
+
+    @media (max-width: 900px){
+        #lore-game-image-box{
+            width: 50%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* border: 1px solid white; */
+
+
+        }
+    #click-responsive-lore{
+
+        display: block;
+    }
+}
+
+.alliances-box{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid white; */
+
+}
+
+.alliances-img{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+
+}
